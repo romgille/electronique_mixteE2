@@ -83,10 +83,10 @@ $$v^* (t) = v(t) . \sum\limits_n \delta(t - n T_e)$$
 $$V^* (f) = V(f) * \dfrac{1}{T_e} \sum\limits_n \delta(f - n f_e)$$
 
 Quand on échantillonne, on périodise le spectre.  
-Les fréquences de $V^* (f)$ qui sont au dessus de $f_{\text{max}}$ sont engendrés par
-l'échantillonnage. Elles devront être supprimées à la fin du traitement pour ne
-pas déformer le signal. Le rôle du filtre de lissage est de supprimer ces
-fréquences.  
+Les fréquences de $V^* (f)$ qui sont au dessus de $f_{\text{max}}$ sont
+engendrés par l'échantillonnage. Elles devront être supprimées à la fin du
+traitement pour ne pas déformer le signal. Le rôle du filtre de lissage est de
+supprimer ces fréquences.  
 Pour pouvoir restituer le signal de départ, on doit respecter le théorème de
 Shannon avec $f_e >>  2 f_{\text{max}}$.  
 Si $f_e < 2 f_{\text{max}}$ il y a recouvrement.
